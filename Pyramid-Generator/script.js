@@ -13,4 +13,12 @@ for (let i = 1; i <= count; i++) {
     } else {
       rows.push(padRow(i, count));
     }
-  }
+}
+
+let result = ""
+
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+
+console.log(result);
