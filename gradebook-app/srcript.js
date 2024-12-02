@@ -1,3 +1,9 @@
+/**
+ * This program calculates the average of a student's test score and returns a message.
+ * @param {*} scores 
+ * @returns 
+ */
+
 function getAverage(scores) {
     let sum = 0;
   
