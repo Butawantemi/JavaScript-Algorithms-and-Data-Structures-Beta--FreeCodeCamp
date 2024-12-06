@@ -47,3 +47,24 @@
     background-color: var(--light-yellow);
     border: 2px solid var(--dark-yellow);
   }
+
+  button,
+input,
+select {
+  min-height: 24px;
+  color: var(--dark-blue);
+}
+
+fieldset,
+label,
+button,
+input,
+select {
+  margin-bottom: 10px;
+}
+
+.output {
+  border: 2px solid var(--light-grey);
+  padding: 10px;
+  text-align: center;
+}
