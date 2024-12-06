@@ -32,4 +32,15 @@ function cleanInputString(str) {
     targetInputContainer.insertAdjacentHTML('beforeend', HTMLString);
   }
   
+
+  function calculateCalories(e) {
+    e.preventDefault();
+    isError = false;
+  
+    
+  
+    if (isError) {
+      return;
+    }
+}
   
