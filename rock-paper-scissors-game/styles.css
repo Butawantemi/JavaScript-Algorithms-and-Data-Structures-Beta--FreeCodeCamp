@@ -80,3 +80,8 @@ h1 {
 #winner-msg {
     margin-top: 25px;
 }
+
+#reset-game-btn {
+    display: none;
+    margin: 20px auto;
+  }
