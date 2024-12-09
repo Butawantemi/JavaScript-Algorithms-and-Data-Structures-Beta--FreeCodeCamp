@@ -71,3 +71,7 @@ const scissorsBtn = document.getElementById("scissors-btn");
 rockBtn.addEventListener("click", function () {
   showResults("Rock");
 });
+
+paperBtn.addEventListener("click", function () {
+  showResults("Paper");
+});
