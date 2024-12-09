@@ -46,3 +46,17 @@ h1 {
     background-color: var(--white);
     color: var(--very-dark-blue);
 }
+
+.rules-container ul {
+    list-style-type: none;
+  }
+  
+  .rules-container p {
+    margin: 10px 0;
+  }
+  
+  @media (min-width: 760px) {
+    .rules-container {
+      width: 60%;
+    }
+  }
