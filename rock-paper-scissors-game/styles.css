@@ -71,3 +71,13 @@ h1 {
 .score {
     font-weight: 500;
 }
+
+.results-container {
+    font-size: 1.3rem;
+    margin: 15px 0;
+  }
+  
+  #winner-msg {
+    margin-top: 25px;
+  }
+  
