@@ -12,3 +12,13 @@
   --yellow: #f1be32;
   --golden-yellow: #feac32;
 }
+
+body {
+    background-color: var(--very-dark-blue);
+    text-align: center;
+    color: var(--white);
+  }
+  
+  h1 {
+    margin: 15px 0 20px;
+  }
