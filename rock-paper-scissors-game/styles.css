@@ -49,14 +49,14 @@ h1 {
 
 .rules-container ul {
     list-style-type: none;
-  }
-  
-  .rules-container p {
+}
+
+.rules-container p {
     margin: 10px 0;
-  }
-  
-  @media (min-width: 760px) {
+}
+
+@media (min-width: 760px) {
     .rules-container {
-      width: 60%;
+        width: 60%;
     }
-  }
+}
