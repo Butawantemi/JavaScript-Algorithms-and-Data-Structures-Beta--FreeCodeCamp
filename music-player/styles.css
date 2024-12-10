@@ -316,4 +316,23 @@ ul {
   .playlist-song {
     justify-content: space-between;
   }
+
+  .playlist-song-title {
+    width: 140px;
+  }
+
+  .playlist-song-artist {
+    width: 40px;
+  }
+
+  .playlist-song-duration > button {
+    padding: 0;
+  }
+
+  .player-content {
+    display: inline;
+    position: relative;
+    justify-items: center;
+    height: 100%;
+  }
 }
