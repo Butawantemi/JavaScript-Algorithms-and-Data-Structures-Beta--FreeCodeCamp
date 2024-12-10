@@ -107,3 +107,13 @@ h1 {
   align-items: center;
   justify-content: center;
 }
+
+#player-album-art {
+    background-color: var(--secondary-color);
+    border: 6px solid var(--background-color);
+  }
+  
+  #player-album-art img {
+    width: 150px;
+    display: block;
+  }
