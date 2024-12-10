@@ -191,3 +191,19 @@ ul {
     justify-content: start;
     list-style: none;
   }
+
+  .playlist-song {
+    display: flex;
+    height: 55px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  [aria-current="true"] {
+    background-color: var(--background-color);
+  }
+  
+  [aria-current="true"] p {
+    color: var(--highlight-color);
+  }
