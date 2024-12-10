@@ -244,3 +244,20 @@ ul {
     width: 80px;
   }
   
+  .playlist-song-duration {
+    font-size: 0.725rem;
+    margin: auto;
+    font-family: var(--font-headline);
+    width: 30px;
+  }
+  
+  .playlist-song-delete {
+    padding: 0;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .playlist-song-delete,
+  .playlist-song-delete {
+    fill: var(--foreground-color);
+  }
