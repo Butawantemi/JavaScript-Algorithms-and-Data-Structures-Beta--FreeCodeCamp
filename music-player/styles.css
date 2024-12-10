@@ -228,3 +228,19 @@ ul {
     color: var(--highlight-color);
     font-size: 0.75rem;
   }
+
+  #player-song-title {
+    font-size: 1.125rem;
+  }
+  
+  .playlist-song-title {
+    font-size: 0.85rem;
+    width: 241px;
+    text-align: left;
+  }
+  
+  .playlist-song-artist {
+    font-size: 0.725rem;
+    width: 80px;
+  }
+  
