@@ -90,3 +90,20 @@ h1 {
     min-width: 75px;
     background-color: var(--highlight-color);
   }
+
+  .fcc-title,
+.playlist-title {
+  color: var(--secondary-color);
+  margin: 0 10px;
+  font-family: var(--font-headline);
+}
+
+.player-content {
+  display: flex;
+  background-color: var(--foreground-color);
+  width: 430px;
+  height: 200px;
+  column-gap: 13px;
+  align-items: center;
+  justify-content: center;
+}
