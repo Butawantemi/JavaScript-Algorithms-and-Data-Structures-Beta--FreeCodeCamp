@@ -232,3 +232,19 @@ const setPlayButtonAccessibleText = () => {
 
 const getCurrentSongIndex = () =>
   userData?.songs.indexOf(userData?.currentSong);
+
+playButton.addEventListener("click", () => {
+  if (userData?.currentSong === null) {
+    playSong(userData?.songs[0].id);
+  } else {
+    playSong(userData?.currentSong.id);
+  }
+});
+
+pauseButton.addEventListener("click", pauseSong);
+
+nextButton.addEventListener("click", playNextSong);
+
+previousButton.addEventListener("click", playPreviousSong);
+
+shuffleButton.addEventListener("click", shuffle);
