@@ -168,3 +168,26 @@ ul {
     outline-style: dashed;
     outline-width: 2px;
   }
+
+  /* Playlist */
+.playlist {
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+  }
+  
+  #playlist-songs {
+    width: 430px;
+    height: 100%;
+    background-color: var(--foreground-color);
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding: 8px 9px;
+    visibility: visible;
+    justify-content: start;
+    list-style: none;
+  }
