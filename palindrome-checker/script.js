@@ -3,3 +3,5 @@ const isPalindrome = str => {
     const reversedStr = cleanedStr.split('').reverse().join('');
     return cleanedStr === reversedStr;
 }
+
+const checkButton = document.getElementById('check-btn');
