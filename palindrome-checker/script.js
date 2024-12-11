@@ -5,8 +5,6 @@ const isPalindrome = str => {
 }
 
 const checkButton = document.getElementById('check-btn');
-
-const checkButton = document.getElementById('check-btn');
 checkButton.addEventListener('click', () => {
     const inputElement = document.getElementById('text-input');
     const resultElement = document.getElementById('result');
@@ -17,5 +15,10 @@ checkButton.addEventListener('click', () => {
         return;
     }
 
-    
+    const isInputPalindrome = isPalindrome(inputValue);
+    if (isInputPalindrome) {
+        resultElement.textContent = `${inputValue} is a palindrome`;
+    } else {
+        resultElement.textContent = `${inputValue} is not a palindrome`;
+    }
 });
