@@ -1,3 +1,10 @@
+/**
+ * This function checks if a string is a palindrome or not 
+ * by taking the input string and cleaning it by removing all non-alphanumeric characters.
+ * @param {*} str 
+ * @returns 
+ */
+
 const isPalindrome = (str) => {
   const cleanedStr = str.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
   const reversedStr = cleanedStr.split("").reverse().join("");
