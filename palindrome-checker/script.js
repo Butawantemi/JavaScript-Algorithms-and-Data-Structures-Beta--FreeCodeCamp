@@ -1,6 +1,6 @@
 /**
- * This function checks if a string is a palindrome or not 
- * by taking the input string and cleaning it by removing all non-alphanumeric characters.
+ * This function checks if a string is a palindrome or not by taking
+ * the input string and cleaning it by removing all non-alphanumeric characters.
  * @param {*} str 
  * @returns 
  */
