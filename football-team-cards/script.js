@@ -140,6 +140,33 @@ const myFavoriteFootballTeam = {
         isCaptain: false,
         nickname: null,
       },
-      
+      {
+        name: "Oscar Ruggeri",
+        position: "defender",
+        number: 19,
+        isCaptain: false,
+        nickname: "El Cabezón",
+      },
+      {
+        name: "Carlos Tapia",
+        position: "midfielder",
+        number: 20,
+        isCaptain: false,
+        nickname: null,
+      },
+      {
+        name: "Marcelo Trobbiani",
+        position: "midfielder",
+        number: 21,
+        isCaptain: false,
+        nickname: "Calesita",
+      },
+      {
+        name: "Héctor Zelada",
+        position: "goalkeeper",
+        number: 22,
+        isCaptain: false,
+        nickname: null,
+      },
     ],
   };
