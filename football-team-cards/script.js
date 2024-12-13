@@ -28,6 +28,20 @@ const myFavoriteFootballTeam = {
         isCaptain: false,
         nickname: null,
       },
-       
+       {
+        name: "Ricardo Bochini",
+        position: "midfielder",
+        number: 3,
+        isCaptain: false,
+        nickname: "El Bocha",
+      },
+      {
+        name: "Claudio Borghi",
+        position: "midfielder",
+        number: 4,
+        isCaptain: false,
+        nickname: "Bichi",
+      },
+      
     ],
   };
