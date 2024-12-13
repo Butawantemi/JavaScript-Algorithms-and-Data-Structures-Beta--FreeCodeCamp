@@ -56,6 +56,20 @@ const myFavoriteFootballTeam = {
         isCaptain: false,
         nickname: "El Gran Capitán",
       },
-     
+      {
+        name: "Jorge Burruchaga",
+        position: "forward",
+        number: 7,
+        isCaptain: false,
+        nickname: "Burru",
+      },
+      {
+        name: "Néstor Clausen",
+        position: "defender",
+        number: 8,
+        isCaptain: false,
+        nickname: null,
+      },
+      
     ],
   };
