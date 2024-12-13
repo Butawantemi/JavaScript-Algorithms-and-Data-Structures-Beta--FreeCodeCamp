@@ -112,6 +112,20 @@ const myFavoriteFootballTeam = {
         isCaptain: false,
         nickname: null,
       },
+      {
+        name: "Luis Islas",
+        position: "goalkeeper",
+        number: 15,
+        isCaptain: false,
+        nickname: "El loco",
+      },
+      {
+        name: "Julio Olarticoechea",
+        position: "defender",
+        number: 16,
+        isCaptain: false,
+        nickname: null,
+      },
       
     ],
   };
