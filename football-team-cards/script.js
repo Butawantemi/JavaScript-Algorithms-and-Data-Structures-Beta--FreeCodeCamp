@@ -84,6 +84,20 @@ const myFavoriteFootballTeam = {
         isCaptain: true,
         nickname: "El Pibe de Oro",
       },
-      
+      {
+        name: "Jorge Valdano",
+        position: "forward",
+        number: 11,
+        isCaptain: false,
+        nickname: "The Philosopher of Football",
+      },
+      {
+        name: "Héctor Enrique",
+        position: "midfielder",
+        number: 12,
+        isCaptain: false,
+        nickname: null,
+      },
+     
     ],
   };
