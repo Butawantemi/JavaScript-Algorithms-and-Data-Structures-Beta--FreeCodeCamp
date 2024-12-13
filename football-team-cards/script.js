@@ -126,6 +126,20 @@ const myFavoriteFootballTeam = {
         isCaptain: false,
         nickname: null,
       },
+      {
+        name: "Pedro Pasculli",
+        position: "forward",
+        number: 17,
+        isCaptain: false,
+        nickname: null,
+      },
+      {
+        name: "Nery Pumpido",
+        position: "goalkeeper",
+        number: 18,
+        isCaptain: false,
+        nickname: null,
+      },
       
     ],
   };
