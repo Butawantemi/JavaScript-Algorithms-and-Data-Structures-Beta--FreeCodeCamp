@@ -98,6 +98,20 @@ const myFavoriteFootballTeam = {
         isCaptain: false,
         nickname: null,
       },
-     
+      {
+        name: "Oscar Garré",
+        position: "defender",
+        number: 13,
+        isCaptain: false,
+        nickname: null,
+      },
+      {
+        name: "Ricardo Giusti",
+        position: "midfielder",
+        number: 14,
+        isCaptain: false,
+        nickname: null,
+      },
+      
     ],
   };
