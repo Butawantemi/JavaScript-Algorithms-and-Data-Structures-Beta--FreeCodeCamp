@@ -42,6 +42,20 @@ const myFavoriteFootballTeam = {
         isCaptain: false,
         nickname: "Bichi",
       },
-      
+      {
+        name: "José Luis Brown",
+        position: "defender",
+        number: 5,
+        isCaptain: false,
+        nickname: "Tata",
+      },
+      {
+        name: "Daniel Passarella",
+        position: "defender",
+        number: 6,
+        isCaptain: false,
+        nickname: "El Gran Capitán",
+      },
+     
     ],
   };
