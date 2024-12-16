@@ -16,3 +16,31 @@ let currentTask = {};
 const removeSpecialChars = (val) => {
   return val.trim().replace(/[^A-Za-z0-9\-\s]/g, "");
 };
+
+const addOrUpdateTask = () => {
+  if (!titleInput.value.trim()) {
+    alert("Please provide a title");
+    return;
+  }
+  const dataArrIndex = taskData.findIndex((item) => item.id === currentTask.id);
+
+  const taskObj = {
+    id: `${removeSpecialChars(titleInput.value)
+      .toLowerCase()
+      .split(" ")
+      .join("-")}-${Date.now()}`,
+    title: removeSpecialChars(titleInput.value),
+    date: removeSpecialChars(dateInput.value),
+    description: removeSpecialChars(descriptionInput.value),
+  };
+
+  if (dataArrIndex === -1) {
+    taskData.unshift(taskObj);
+  } else {
+    taskData[dataArrIndex] = taskObj;
+  }
+
+  localStorage.setItem("data", JSON.stringify(taskData));
+  updateTaskContainer();
+  reset();
+};
