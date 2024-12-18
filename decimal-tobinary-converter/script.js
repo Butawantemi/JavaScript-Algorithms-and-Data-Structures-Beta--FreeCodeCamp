@@ -36,27 +36,27 @@ const decimalToBinary = (input) => {
 };
 
 const showAnimation = () => {
-    result.innerText = "Call Stack Animation";
-  
-    animationData.forEach((obj) => {
-      setTimeout(() => {
-        animationContainer.innerHTML += `
+  result.innerText = "Call Stack Animation";
+
+  animationData.forEach((obj) => {
+    setTimeout(() => {
+      animationContainer.innerHTML += `
           <p id="${obj.inputVal}" class="animation-frame">
             decimalToBinary(${obj.inputVal})
           </p>
         `;
-      }, obj.addElDelay);
-  
-      setTimeout(() => {
-        document.getElementById(obj.inputVal).textContent = obj.msg;
-      }, obj.showMsgDelay);
-  
-      setTimeout(() => {
-        document.getElementById(obj.inputVal).remove();
-      }, obj.removeElDelay);
-    });
-  
+    }, obj.addElDelay);
+
     setTimeout(() => {
-  result.textContent = decimalToBinary(5)
-    }, 20000);
-  };
+      document.getElementById(obj.inputVal).textContent = obj.msg;
+    }, obj.showMsgDelay);
+
+    setTimeout(() => {
+      document.getElementById(obj.inputVal).remove();
+    }, obj.removeElDelay);
+  });
+
+  setTimeout(() => {
+    result.textContent = decimalToBinary(5);
+  }, 20000);
+};
