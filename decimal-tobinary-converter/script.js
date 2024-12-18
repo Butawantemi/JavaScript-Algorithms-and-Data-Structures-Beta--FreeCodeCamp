@@ -77,3 +77,5 @@ const checkUserInput = () => {
   result.textContent = decimalToBinary(inputInt);
   numberInput.value = "";
 };
+
+convertBtn.addEventListener("click", checkUserInput);
