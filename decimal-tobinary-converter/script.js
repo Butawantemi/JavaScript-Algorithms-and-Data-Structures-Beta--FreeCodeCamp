@@ -2,7 +2,6 @@ const numberInput = document.getElementById("number-input");
 const convertBtn = document.getElementById("convert-btn");
 const result = document.getElementById("result");
 const animationContainer = document.getElementById("animation-container");
-
 const animationData = [
   {
     inputVal: 5,
@@ -24,7 +23,7 @@ const animationData = [
     msg: "decimalToBinary(1) returns '1' (base case) and gives that value to the stack below. Then it pops off the stack.",
     showMsgDelay: 5000,
     removeElDelay: 10000,
-  },
+  }
 ];
 
 const decimalToBinary = (input) => {
@@ -41,10 +40,10 @@ const showAnimation = () => {
   animationData.forEach((obj) => {
     setTimeout(() => {
       animationContainer.innerHTML += `
-          <p id="${obj.inputVal}" class="animation-frame">
-            decimalToBinary(${obj.inputVal})
-          </p>
-        `;
+        <p id="${obj.inputVal}" class="animation-frame">
+          decimalToBinary(${obj.inputVal})
+        </p>
+      `;
     }, obj.addElDelay);
 
     setTimeout(() => {
@@ -57,7 +56,7 @@ const showAnimation = () => {
   });
 
   setTimeout(() => {
-    result.textContent = decimalToBinary(5);
+result.textContent = decimalToBinary(5)
   }, 20000);
 };
 
