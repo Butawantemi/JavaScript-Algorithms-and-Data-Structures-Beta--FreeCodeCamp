@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+input {
+    padding: 5px;
+    width: 100px;
+    border: 3px solid yellow;
+    border-radius: 2px;
+}
+
+button {
+    padding: 8px 10%;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    background: #ddd;
+}
+
+p {
+    font-weight: bold;
+    margin-top: 20px;
+    background: #fff;
+    color: #000;
+    border-radius: 3px;
+}
+
+.container {
+    background-color: #333;
+    padding: 10px;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 50%;
+    width: 500px;
+    border-radius: 10px;
+    color: #fff;
+}
